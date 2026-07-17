@@ -1,0 +1,24 @@
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+
+# Fichiers de cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Fichiers système macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+__MACOSX/
+
+# Sauvegardes locales de modèles (à ne pas push sur un dépôt public si elles sont lourdes)
+*.pth
+*.pt
+*.zip
+*.pkl
