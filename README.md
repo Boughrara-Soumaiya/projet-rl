@@ -30,13 +30,9 @@ congestion moyenne par rapport à une régulation à cycle fixe classique
 (le pourcentage exact dépend du seed et du nombre d'épisodes — relancez
 `train.py` pour la valeur à jour, affichée en fin d'exécution).
 
-## Reproduire
+## Démonstration
 
-```bash
-pip install -r requirements.txt
-python train.py        # entraîne les agents et sauvegarde trained_agents.pkl
-streamlit run app.py    # lance le tableau de bord interactif
-```
+Voici le lien de la démonstration : https://projet-rl-tpznhf7b6qbkf2ntseqp8u.streamlit.app/
 
 ## Limites et pistes d'amélioration
 
